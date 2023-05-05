@@ -1,6 +1,6 @@
 FROM python:3.10.10
 
-COPY ./PDF
+COPY ./PDF /app
 WORKDIR /PDF
 
 RUN pip install pip --upgrade
