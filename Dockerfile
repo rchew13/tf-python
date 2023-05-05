@@ -1,7 +1,7 @@
 FROM python:3.10.10
 
-COPY ./src /app
-WORKDIR /app
+COPY ./PDF
+WORKDIR /PDF
 
 RUN pip install pip --upgrade
 RUN pip install -r requirements.txt
