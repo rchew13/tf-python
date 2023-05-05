@@ -21,7 +21,7 @@ jobs:
       - name: Build web container image
         run: |
           docker build -f Dockerfile \
-            -t roychew3/tf-python:latest \
+            -t roychew13/tf-python:latest \
             -t roychew13/tf-python:${GITHUB_SHA::7}-${GITHUB_RUN_ID::5} \
             .
       - name: Push container
