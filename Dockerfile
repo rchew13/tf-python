@@ -5,4 +5,4 @@ WORKDIR /PDF
 
 RUN pip install pip --upgrade
 
-CMD ["python", "-m", "http.server", "8080"]
+CMD ["python","http.server", "8080"]
